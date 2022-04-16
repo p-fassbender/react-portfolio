@@ -1,13 +1,17 @@
 import React from 'react';
+import Navigation from "../Navigation"
 
-function Header() {
+function Header(props) {
     return (
-        <section>
-            <h1>A pleasure to meet you! I am Sir Header-lock</h1>
-            <header>
-                
-            </header>
-        </section>
+        <nav className="navbar navbar-expand-lg">
+            <div className='container-fluid'>
+                <span className='navbar-brand' href="#"
+                    onClick={() => { props.setCurrentPage(props.pages[0]) }}>
+                    Preston Fassbender
+                </span>
+                <Navigation {...props}></Navigation>
+            </div>
+        </nav>
     )
 }
 
