@@ -10,7 +10,7 @@ function Navigation(props) {
     useEffect(() => { document.title = currentPage.name }, [currentPage]);
 
     return (
-        <div className='d-flex'>
+        <div className='collapse navbar-collapse justify-content-end' id="navbarSupportedContent">
             <ul className='navbar-nav'>
                 {pages.map((page) => (
                     <li key={page.name} className='nav-item mx-3'>
