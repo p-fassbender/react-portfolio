@@ -30,7 +30,7 @@ function App() {
                 setCurrentPage={setCurrentPage}
                 currentPage={currentPage}
             ></Header>
-            <main>
+            <main style={{ flex: "1"}}>
                 {(() => {
                     switch (currentPage.name) {
                         case 'Contact':
