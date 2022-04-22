@@ -1,0 +1,32 @@
+:root {
+    --jazzberry-jam: #8b0a50;
+}
+
+main {
+    flex: 1;
+}
+
+a {
+    color: var(--jazzberry-jam);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--jazzberry-jam);
+    font-weight: bold;
+}
+
+.navActive {
+    color: var(--jazzberry-jam);
+    font-weight: bold;
+}
+
+.btn {
+    background-color: var(--jazzberry-jam);
+    border-color: var(--jazzberry-jam);
+}
+
+.btn:hover {
+    background-color: #6F0840;
+    border-color: #6F0840;
+}
