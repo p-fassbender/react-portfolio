@@ -5,7 +5,7 @@ function Header(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className='container-fluid'>
-                <span className='navbar-brand' href="#"
+                <span className='navbar-brand'
                     onClick={() => { props.setCurrentPage(props.pages[0]) }}>
                     Preston Fassbender
                 </span>
