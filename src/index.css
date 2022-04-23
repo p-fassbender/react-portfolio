@@ -11,6 +11,8 @@ body {
     background-image: url('./images/pexels-jess-bailey-designs-1097930.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Exo';
+    font-size: 20px;
 }
 
 main {
