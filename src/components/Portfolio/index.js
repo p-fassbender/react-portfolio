@@ -21,9 +21,9 @@ function Portfolio() {
         },
         {
             title: 'Social Network API',
-            src: require('../../images/filler-screenshot.jpg'),
+            src: require('../../images/social-network-api-screenshot.png'),
             githubLink: 'https://github.com/p-fassbender/social-network-api',
-            liveLink: 'N/A',
+            liveLink: '',
             technologies: ['JavaScript', 'Express', 'Mongoose', 'MongoDB'],
             description: 'Backend project focused on creating routes, controllers, and models using a NoSQL'
         },
@@ -37,17 +37,17 @@ function Portfolio() {
         },
         {
             title: 'Team Profile Generator',
-            src: require('../../images/filler-screenshot.jpg'),
+            src: require('../../images/team-profile-generator-screenshot.png'),
             githubLink: 'https://github.com/p-fassbender/team-profile-generator',
-            liveLink: 'N/A',
+            liveLink: '',
             technologies: ['HTML5', 'JavaScript', 'Node', 'OOP', 'TDD'],
             description: 'Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.'
         },
         {
             title: 'Professional Readme Generator',
-            src: require('../../images/filler-screenshot.jpg'),
-            githubLink: 'https://github.com/p-fassbender/team-profile-generator',
-            liveLink: 'N/A',
+            src: require('../../images/professional-readme-generator-screenshot.png'),
+            githubLink: 'https://github.com/p-fassbender/professional-readme-generator',
+            liveLink: '',
             technologies: ['Node', 'JavaScript', 'Inquirer'],
             description: 'Command-line application that dynamically generates a professional README.md file from a user\'s input using the Inquirer package'
         },

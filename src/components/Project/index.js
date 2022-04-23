@@ -2,6 +2,12 @@ import React, { useState } from 'react';
 
 function Project({ projects }) {
     const [currentProject, setCurrentProject] = useState("");
+
+    let techlist;
+    currentProject.technologies
+        ? techlist = currentProject.technologies.join(", ")
+        : techlist = ''
+
     const [isModalOpen, setIsModalOpen] = useState(false);
     const toggleModal = (project) => {
         setCurrentProject({ ...project });
@@ -24,8 +30,22 @@ function Project({ projects }) {
                                 style={{ width: '100%', height: 'auto' }}
                             />
                             <p>{currentProject.description}</p>
-                            <p>{currentProject.githubLink}</p>
-                            <p>{currentProject.liveLink}</p>
+                            <p>
+                                Technologies Used: <br />
+                                {techlist}
+                            </p>
+                            <p>
+                                See the GitHub: <br />
+                                <a href={currentProject.githubLink} target={'_blank'} rel={'noreferrer'}>{currentProject.githubLink}</a>
+                            </p>
+                            <p>
+                                Go to the website: <br />
+                                {currentProject.liveLink
+                                    ? <a href={currentProject.liveLink} target={'_blank'} rel={'noreferrer'}>{currentProject.liveLink}</a>
+                                    : <>N/A</>
+                                }
+                            </p>
+
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal" onClick={toggleModal}>Close</button>
@@ -39,8 +59,9 @@ function Project({ projects }) {
                     <div className="card"
                         onClick={() => toggleModal(project)}
                         data-bs-toggle="modal"
-                        data-bs-target="#projectModal">
-                        <img src={project.src} alt={project.title}/>
+                        data-bs-target="#projectModal"
+                    >
+                        <img src={project.src} alt={project.title} />
                         <div className='seeMoreInfo'>
                             <h3>Click for more information</h3>
                         </div>
