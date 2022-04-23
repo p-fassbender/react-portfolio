@@ -63,7 +63,8 @@ function Project({ projects }) {
                     >
                         <img src={project.src} alt={project.title} />
                         <div className='seeMoreInfo'>
-                            <h3>Click for more information</h3>
+                            <h3>{project.title}</h3>
+                            <p>Click for more information</p>
                         </div>
                     </div>
                 </div>
