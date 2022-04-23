@@ -1,10 +1,11 @@
 :root {
     --jazzberry-jam: #8b0a50;
     --jazzberry-jam-darker: #6F0840;
+    --lavender-blush: #F9F3F6
 }
 
 #centerfold {
-    background-color: white;
+    background-color: var(--lavender-blush);
 }
 
 body {
