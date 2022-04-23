@@ -24,7 +24,7 @@ function App() {
     const [currentPage, setCurrentPage] = useState(pages[0])
 
     return (
-        <div className="container d-flex" style={{ minHeight: "100vh", flexDirection: "column"}}>
+        <div id='centerfold' className="container d-flex" style={{ minHeight: "100vh", flexDirection: "column"}}>
             <Header
                 pages={pages}
                 setCurrentPage={setCurrentPage}

@@ -9,7 +9,7 @@ function Project({ projects }) {
     }
 
     return (
-        <div>
+        <div className='row'>
             <div tabIndex="-1" id="projectModal" className="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-centered">
                     <div className="modal-content">
@@ -21,7 +21,7 @@ function Project({ projects }) {
                             <img
                                 src={currentProject.src}
                                 alt={currentProject.title}
-                                style={{width: '100%', height: 'auto'}}
+                                style={{ width: '100%', height: 'auto' }}
                             />
                             <p>{currentProject.description}</p>
                             <p>{currentProject.githubLink}</p>
@@ -35,14 +35,16 @@ function Project({ projects }) {
             </div>
 
             {projects.map((project) => (
-                <div className="card" style={{ width: "18rem" }} key={Math.floor(Math.random() * 100000)}>
-                    <img
-                        src={project.src}
-                        alt={project.title}
+                <div className='col-lg-4 col-md-6 d-flex justify-content-center my-3' key={Math.floor(Math.random() * 100000)}>
+                    <div className="card"
                         onClick={() => toggleModal(project)}
                         data-bs-toggle="modal"
-                        data-bs-target="#projectModal"
-                    />
+                        data-bs-target="#projectModal">
+                        <img src={project.src} alt={project.title}/>
+                        <div className='seeMoreInfo'>
+                            <h3>Click for more information</h3>
+                        </div>
+                    </div>
                 </div>
             ))}
         </div>

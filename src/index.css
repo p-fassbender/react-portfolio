@@ -1,5 +1,16 @@
 :root {
     --jazzberry-jam: #8b0a50;
+    --jazzberry-jam-darker: #6F0840;
+}
+
+#centerfold {
+    background-color: white;
+}
+
+body {
+    background-image: url('./images/pexels-jess-bailey-designs-1097930.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main {
@@ -12,7 +23,7 @@ a {
 }
 
 a:hover {
-    color: var(--jazzberry-jam);
+    color: var(--jazzberry-jam-darker);
     font-weight: bold;
 }
 
@@ -27,6 +38,29 @@ a:hover {
 }
 
 .btn:hover {
-    background-color: #6F0840;
-    border-color: #6F0840;
+    background-color: var(--jazzberry-jam-darker);
+    border-color: var(--jazzberry-jam-darker);
+}
+
+.card {
+    height: fit-content;
+    cursor: pointer;
+}
+
+.card:hover>.seeMoreInfo {
+    display: block;
+}
+
+.seeMoreInfo {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, .75);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.seeMoreInfo>h3 {
+    margin-top: .5rem;
 }
