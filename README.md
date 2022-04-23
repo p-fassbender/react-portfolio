@@ -1,5 +1,58 @@
 # Personal Portfolio: React Edition
 
+The aim of this project was to create a portfolio using my new React skills to help set you apart from other developers whose portfolios don’t use the latest technologies.
+
+## Table of Contents
+[Technologies Used](#technologies-used) <br>
+[Installation](#installation) <br>
+[Usage](#use) <br>
+[Testing](#tests) <br>
+[Media](#media) <br>
+[Questions](#questions) <br>
+
+## Technologies Used
+* JavaScript
+* HTML5
+* CSS
+* Bootstrap
+* React
+
+with a focus on creating a single page application using react
+
+---
+
+## Installation
+Navigate to the root directory in the terminal and initialize the project with **npm install** to install all the proper node module dependencies.
+
+---
+
+## Use
+Navigate to the root directory in the terminal and type **npm start** to run the project
+
+Navigate to http://localhost:3001/ in your browser
+
+---
+
+## Tests
+There are no formal tests for this project
+
+---
+
+## Media
+
+The following link is to this project's github repository
+https://github.com/p-fassbender/react-portfolio
+
+The following link is to this project's live website
+https://p-fassbender.github.io/react-portfolio/
+
+---
+
+## Questions
+Any questions feel free to contact me via [my github](https://github.com/p-fassbender) or by sending me an email at fassbenderp0551@gmail.com.
+
+---
+
 # USER STORY
 AS AN employer looking for candidates with experience building single-page applications
 I WANT to view a potential employee's deployed React portfolio of work samples
@@ -31,8 +84,6 @@ THEN I receive a notification if I have entered an invalid email address
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 * WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
-
-
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
