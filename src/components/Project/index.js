@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ProjectCard from '../ProjectCard';
 
 function Project({ projects }) {
     const [currentProject, setCurrentProject] = useState("");
@@ -55,19 +56,7 @@ function Project({ projects }) {
             </div>
 
             {projects.map((project) => (
-                <div className='col-lg-4 col-md-6 d-flex justify-content-center my-3' key={Math.floor(Math.random() * 100000)}>
-                    <div className="card"
-                        onClick={() => toggleModal(project)}
-                        data-bs-toggle="modal"
-                        data-bs-target="#projectModal"
-                    >
-                        <img src={project.src} alt={project.title} />
-                        <div className='seeMoreInfo'>
-                            <h3>{project.title}</h3>
-                            <p>Click for more information</p>
-                        </div>
-                    </div>
-                </div>
+                <ProjectCard project={project} toggleModal={toggleModal} key={Math.floor(Math.random() * 100000)}></ProjectCard>
             ))}
         </div>
     )
