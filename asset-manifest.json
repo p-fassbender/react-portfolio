@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.7c27d648.css",
-    "main.js": "/react-portfolio/static/js/main.37ebe7d0.js",
+    "main.js": "/react-portfolio/static/js/main.74bbe17d.js",
     "static/media/portrait.jpg": "/react-portfolio/static/media/portrait.af55708eaaeaa2b92576.jpg",
     "static/media/3-guys-pizza-n-pies-screenshot.png": "/react-portfolio/static/media/3-guys-pizza-n-pies-screenshot.1b117b29acb78353c53c.png",
     "static/media/social-network-api-screenshot.png": "/react-portfolio/static/media/social-network-api-screenshot.98d19a769514726840cb.png",
@@ -13,10 +13,10 @@
     "static/media/Preston-Fassbender-Resume.pdf": "/react-portfolio/static/media/Preston-Fassbender-Resume.b764b2f44976f59dc296.pdf",
     "index.html": "/react-portfolio/index.html",
     "main.7c27d648.css.map": "/react-portfolio/static/css/main.7c27d648.css.map",
-    "main.37ebe7d0.js.map": "/react-portfolio/static/js/main.37ebe7d0.js.map"
+    "main.74bbe17d.js.map": "/react-portfolio/static/js/main.74bbe17d.js.map"
   },
   "entrypoints": [
     "static/css/main.7c27d648.css",
-    "static/js/main.37ebe7d0.js"
+    "static/js/main.74bbe17d.js"
   ]
 }
