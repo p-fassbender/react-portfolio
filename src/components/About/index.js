@@ -8,7 +8,7 @@ function About() {
                 <h2>About Me</h2>
             </div>
             <div className='row'>
-                <div className='col'>
+                <div className='col d-flex justify-content-center'>
                     <img src={portraitPhoto} alt="Preston Fassbender's face" style={{ width: "400px", height: "500px" }} />
                 </div>
                 <div className='col'>
