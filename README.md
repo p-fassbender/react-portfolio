@@ -29,7 +29,7 @@ Navigate to the root directory in the terminal and initialize the project with *
 ## Use
 Navigate to the root directory in the terminal and type **npm start** to run the project
 
-Navigate to http://localhost:3001/ in your browser
+Navigate to http://localhost:3000/ in your browser
 
 ---
 
@@ -39,6 +39,8 @@ There are no formal tests for this project
 ---
 
 ## Media
+
+![Screenshot 2022-04-24 at 19-53-01 About Me](https://user-images.githubusercontent.com/36012762/165004462-3ceeefcc-a2c4-49f2-acde-6bdacccd7e05.png)
 
 The following link is to this project's github repository
 https://github.com/p-fassbender/react-portfolio
