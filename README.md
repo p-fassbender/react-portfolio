@@ -1,6 +1,6 @@
 # Personal Portfolio: React Edition
 
-The aim of this project was to create a portfolio using my new React skills to help set you apart from other developers whose portfolios don’t use the latest technologies.
+The aim of this project was to create a portfolio using my new React skills to help set me apart from other developers whose portfolios don’t use the latest technologies.
 
 ## Table of Contents
 [Technologies Used](#technologies-used) <br>
