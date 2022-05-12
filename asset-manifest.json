@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.7c27d648.css",
-    "main.js": "/react-portfolio/static/js/main.2f131969.js",
+    "main.js": "/react-portfolio/static/js/main.e9014643.js",
     "static/media/portrait.jpg": "/react-portfolio/static/media/portrait.af55708eaaeaa2b92576.jpg",
+    "static/media/my-outdoor-space-home.png": "/react-portfolio/static/media/my-outdoor-space-home.1cdfd38d2ba9208ca361.png",
     "static/media/3-guys-pizza-n-pies-screenshot.png": "/react-portfolio/static/media/3-guys-pizza-n-pies-screenshot.1b117b29acb78353c53c.png",
     "static/media/social-network-api-screenshot.png": "/react-portfolio/static/media/social-network-api-screenshot.98d19a769514726840cb.png",
     "static/media/pexels-jess-bailey-designs-1097930.jpg": "/react-portfolio/static/media/pexels-jess-bailey-designs-1097930.550aea83c92e58f1af20.jpg",
@@ -13,10 +14,10 @@
     "static/media/Preston-Fassbender-Resume.pdf": "/react-portfolio/static/media/Preston-Fassbender-Resume.09b0bd0324604da54d24.pdf",
     "index.html": "/react-portfolio/index.html",
     "main.7c27d648.css.map": "/react-portfolio/static/css/main.7c27d648.css.map",
-    "main.2f131969.js.map": "/react-portfolio/static/js/main.2f131969.js.map"
+    "main.e9014643.js.map": "/react-portfolio/static/js/main.e9014643.js.map"
   },
   "entrypoints": [
     "static/css/main.7c27d648.css",
-    "static/js/main.2f131969.js"
+    "static/js/main.e9014643.js"
   ]
 }
