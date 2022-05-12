@@ -4,6 +4,14 @@ import Project from '../Project';
 function Portfolio() {
     const [projects] = useState([
         {
+            title: 'My Outdoor Space',
+            src: require('../../images/my-outdoor-space-home.png'),
+            githubLink: 'https://github.com/p-fassbender/my-outdoor-space',
+            liveLink: 'https://my-outdoor-space.herokuapp.com/',
+            technologies: ['MERN, GraphQL, Bootstrap, CSS, JWT, bcrypt'],
+            description: 'Small team project for a MERN stack single-page application that works with real-world data to solve a real-world challenge, with a focus on user demand.'
+        },
+        {
             title: '3 Guys Pizza-n-Pies',
             src: require('../../images/3-guys-pizza-n-pies-screenshot.png'),
             githubLink: 'https://github.com/p-fassbender/3-guys-pizza-n-pies',
