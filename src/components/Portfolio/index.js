@@ -7,7 +7,7 @@ function Portfolio() {
             title: 'My Outdoor Space',
             src: require('../../images/my-outdoor-space-home.png'),
             githubLink: 'https://github.com/p-fassbender/my-outdoor-space',
-            liveLink: 'https://my-outdoor-space.herokuapp.com/',
+            liveLink: '',
             technologies: ['MERN, GraphQL, Bootstrap, CSS, JWT, bcrypt'],
             description: 'Small team project for a MERN stack single-page application that works with real-world data to solve a real-world challenge, with a focus on user demand.'
         },
@@ -15,7 +15,7 @@ function Portfolio() {
             title: '3 Guys Pizza-n-Pies',
             src: require('../../images/3-guys-pizza-n-pies-screenshot.png'),
             githubLink: 'https://github.com/p-fassbender/3-guys-pizza-n-pies',
-            liveLink: 'https://agile-bastion-05286.herokuapp.com/',
+            liveLink: '',
             technologies: ['HTML5', 'JavaScript', 'CSS', 'Express', 'MySql', 'Bootstrap', 'Handlebars'],
             description: 'Small team project for an ecommerce website focused on full stack development following the MVC paradigm'
         },
@@ -39,7 +39,7 @@ function Portfolio() {
             title: 'Tech Blog',
             src: require('../../images/tech-blog-screenshot.png'),
             githubLink: 'https://github.com/p-fassbender/tech-blog',
-            liveLink: 'https://stormy-fjord-69950.herokuapp.com/',
+            liveLink: '',
             technologies: ['HTML5', 'JavaScript', 'CSS', 'Express', 'MySql', 'Bootstrap', 'Handlebars'],
             description: 'App that follows the MVC paradigm using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication'
         },
